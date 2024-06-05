@@ -1,0 +1,66 @@
+/* 全体のスタイルを設定 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #e6e6e6;
+    letter-spacing: 0.2em;
+}
+
+/* ヘッダーのスタイルを設定 */
+header {
+    padding: 30px 4% 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ナビゲーションメニューのスタイルを設定 */
+nav {
+    margin: 0 0 0 auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    margin: 0 0 0 15px;
+    font-size: 14px;
+}
+
+/* メインビジュアルのスタイルを設定 */
+.main-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('images/S__46112838.jpg') center center / cover no-repeat; /* 背景画像を中央に配置し、セクション内に収まるように設定 */
+}
+
+h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+}
