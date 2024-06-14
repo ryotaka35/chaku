@@ -4,24 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>株式会社CHAKURA</title>
+    <title>CHAKURA Inc.</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <a href="/">株式会社CHAKURA</a>
+        <a href="index.html">CHAKRA Inc.</a>
         <nav class="pc-nav">
             <ul>
-                <li><a href="#home">ホーム</a></li>
-                <li><a href="#services">サービス</a></li>
-                <li><a href="#about">会社概要</a></li>
-                <li><a href="#testimonials">お客様の声</a></li>
-                <li><a href="#contact">お問い合わせ</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <div class="main-visual">
-        <h2>WEB DESIGN IS YOUR FUTURE</h2>
+        <h2>営業力を最大限に引き出し、あなたのビジネスを成功へ導くパートナー</h2>
     </div>
+    <section id="services" class="section services">
+        <h1>Services</h1>
+        <h2>ホームページ制作</h2>
+        <p>今や『企業の顔』として持っていることは当たり前、働き方改革やテレワークの推進においても大きな役割を発揮するホームページ。
+            弊社ではマーケターによる戦略UXの策定からデザイン・技術選定まで全て御社のご要望に合わせて制作を代行いたします。</p>
+        <h2>SNSマーケティング</h2>
+        <p>弊社ではプロのマーケターによるSNSプロモーションの代行サービスを承っております。
+            お気軽にお申しつけください。</p>
+    </section>
+    <section id="about" class="section about">
+        <h1>About</h1>
+        <h2>〜テクノロジーを通じて社会に変革をもたらし、新たな時代を創る〜</h2>
+        <p>
+            我々は今日本・世界が抱えている課題に対してテクノロジーを通じてダイレクトにアプローチしていく事で、より我々の生活を良くすると信じています。
+            私たちこのミッションをもとにプロダクトを創出し、新たな時代を創ります。</p>
+    </section>
+    <section id="contact" class="section contact">
+        <h1>Contact</h1>
+        <p>お問い合わせやご依頼は、お気軽に以下のフォームからご連絡ください。一週間以内に返信いたします。</p>
+        <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="name">お名前</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">メッセージ</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">送信</button>
+        </form>
+    </section>
 </body>
+
+</html>
